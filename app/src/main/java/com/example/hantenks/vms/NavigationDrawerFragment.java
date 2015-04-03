@@ -99,7 +99,7 @@ public class NavigationDrawerFragment extends Fragment {
                 Toast.makeText(getActivity(),"Please Wait a Moment",Toast.LENGTH_SHORT).show();
                 switch(position){
                 case 0:
-                    Intent intent0 = new Intent(getActivity(),Navigation.class);
+                    Intent intent0 = new Intent(getActivity(),CampusMap.class);
                     startActivity(intent0);
                     break;
                 case 1:
